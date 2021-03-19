@@ -92,17 +92,28 @@ int main ()
       var4 = "No conclusion";
     }
     cout<<var4<<endl;
-    if(var1=='Introvert'&&var2='Intuitive')
+        if(var1=='Introvert'&&var2='Sensing'&&var3=='Thinking'&&var4=='Judging')
     {
-        cout<<"You are an intuitive introvert.Hence the best jobs that would suit you are self-made positions that involve writing,accounting, music, design and technology. Any job that involves minimum interaction with lots of people and allows you to share your inner thoughts and ideas with ease.
+        cout<<"You are an intuitive introvert.Hence the best jobs that would suit you are self-made positions that involve writing,accounting, music, design and technology. Any job that involves minimum interaction with lots of people and allows you to share your inner thoughts and ideas with ease.";
     }
-    if(var1=='Extrovert'&&var2=='Sensing')
+     if(var1=='Introvert'&&var2=='Sensing',var3=='Feeling'&&var4=='Judging')
     {
-        cout<<"You exhibit extroverted sensing.Jobs that involve practical,people-centered problems like management,service sectors are perfect for you.You may also choose careers pertaining to food or textiles industry ,art, or dance. You would want to choose a career that allows you to move around, and have a work environment that is aesthetically pleasing.
+        cout<<"You are an introverted sensing,Feeling and Judging person. You’re best-suited for positions that need a steady mind and head, even when the going gets tough like Law enforcement officer,Business Analyst,Customer Service Representative,Medical Secretary,Executive Assistant";
+            //You exhibit extroverted sensing.Jobs that involve practical,people-centered problems like management,service sectors are perfect for you.You may also choose careers pertaining to food or textiles industry ,art, or dance. You would want to choose a career that allows you to move around, and have a work environment that is aesthetically pleasing.
     }
-    if(var1=='Extrovert'&&var2=='Intuitive')
+      if(var1=='Introvert'&&var2=='Intuition'&&var3=='Feeling'&&var4=='Judging')
     {
-        cout<<"As an extroverted intuitive person you are always on the go,excited to try new things,and not contented with a single activity for an extended period. You are in constant search for new potentials and possibilities in every situation.Travelling,Photography,entrepreneurship,social work are the best suited jobs for this personality type.
+        cout<<"You are an introvert with intuition,feeling and judging personality. Jobs to consider: Social/NGO Work,HR Manager,Counselor/Therapist,Writer";
+            //As an extroverted intuitive person you are always on the go,excited to try new things,and not contented with a single activity for an extended period. You are in constant search for new potentials and possibilities in every situation.Travelling,Photography,entrepreneurship,social work are the best suited jobs for this personality type.
     }
-  return 0;
+    if(var1=='Introvert'&&var2=='Intuition'&&var3=='Thinking'&&var4=='Judging')
+    {
+        cout<<"You are an introvert with intuition,feeling and judging personality. The suitable jobs for this personality is Software Developer,Surgeon,Financial Advisor,Business Executive,Microbiologist";
+    }
+    if(var1=='Introvert'&&var2=='Sensing'&&var3=='Thinking'&&var4=='Perceiving')
+    {
+        cout<<"You are an introvert with sensing,thinking and perceiving personality.Jobs to consider would be Police Officer,Mechanical/Civil Engineer,Operations Analyst and Economist";
+    }
+    if(
+        return 0;
 }
